@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #19a1ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  line-height: 1.5rem;
+}
+
+.top-bubble {
+  position: absolute;
+  top: -28rem;
+  left: -14rem;
+}
+
+.bottom-bubble {
+  position: absolute;
+  bottom: -36rem;
+  right: -14rem;
+}
+
+.card-grid {
+  background-color: White;
+  border-radius: 1.5rem;
+  display: grid;
+  grid-template-areas: "div1" "div2";
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  z-index: -1;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.dp-div {
+  border-radius: 50%;
+  min-height: 8rem;
+  width: 8rem;
+  background-image: url("/image-victor.2a1728e0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 7rem;
+  left: 9rem;
+  border: 0.4rem solid White;
+}
+
+.g-item1 {
+  grid-area: div1;
+  min-width: 25rem;
+}
+.g-item1 .h3 {
+  display: table;
+  margin: 1rem auto 0rem auto;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+}
+.g-item1 .h3 span {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  color: rgba(150, 150, 150, 0.95);
+}
+.g-item1 .location {
+  display: table;
+  margin: 0.5rem auto 1.5rem auto;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: rgba(150, 150, 150, 0.95);
+}
+
+.g-item2 {
+  grid-area: div2;
+  height: 6rem;
+  border-top: 0.5px solid rgba(150, 150, 150, 0.7);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.g-item2 h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: rgba(150, 150, 150, 0.95);
+  font-size: 0.8rem;
+  display: table;
+  font-weight: 400;
+  text-align: center;
+}
+.g-item2 h3 span {
+  display: table;
+  margin: auto;
+  color: Black;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 90em) {
+  .top-bubble {
+    left: -18rem;
+  }
+
+  .bottom-bubble {
+    right: -21rem;
+  }
+}
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
