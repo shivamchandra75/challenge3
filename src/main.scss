@@ -47,7 +47,6 @@ body {
 }
 
 .dp-div {
-  // margin-bottom: 5rem;
   border-radius: 50%;
   min-height: 8rem;
   width: 8rem;
@@ -58,14 +57,6 @@ body {
   top: 6rem;
   left: 8rem;
   border: 0.4rem solid White;
-
-  // .dp {
-  //   border-radius: 50%;
-  //   size: 6rem;
-  //   position: absolute;
-  //   top: 7rem;
-  //   left: 9rem;
-  // }
 }
 
 .g-item1 {
@@ -104,7 +95,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  // min-width: 25rem;
 
   h3 {
     font-family: "Kumbh Sans", sans-serif;
@@ -194,9 +184,3 @@ body {
     bottom: -37rem;
   }
 }
-// phones
-// left:-45 rem;
-// .bottom-bubble {
-//     right: -45rem;
-//     bottom: -25rem;
-// }
